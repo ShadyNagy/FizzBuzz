@@ -13,6 +13,7 @@ namespace ShadyNagy.FizzBuzz.Tests
         }
 
         [Theory]
+        [InlineData(0)]
         [InlineData(1)]
         [InlineData(2)]
         [InlineData(4)]

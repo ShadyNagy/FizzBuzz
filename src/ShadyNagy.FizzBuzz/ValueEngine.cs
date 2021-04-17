@@ -8,7 +8,11 @@
 
         public string Create(int input)
         {
-            if (input % 15 == 0)
+            if (input == 0)
+            {
+                return input.ToString();
+            }
+            else if (input % 15 == 0)
             {
                 return FIZZ_BUZZ;
             }else if (input % 3 == 0)
